@@ -1,4 +1,5 @@
 resource "aws_launch_configuration" "web_server_as" {
+    name_prefix        = "web-server-as-"  # Added name_prefix to ensure unique names
     image_id           = "ami-00b8917ae86a424c9"
     instance_type      = "t2.micro"
     key_name           = "monitoring"  # Corrected key pair name
