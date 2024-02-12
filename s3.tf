@@ -25,7 +25,7 @@ resource "aws_s3_bucket_versioning" "four" {
 
 terraform {
   backend "s3" {
-    bucket = "sm7243.flm.bucket"
+    bucket = "nk.flm.bucket"
     key    = "prod/terraform.tfstate"
     region = "ap-south-1"
   }
