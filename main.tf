@@ -1,7 +1,7 @@
 resource "aws_launch_configuration" "web_server_as" {
     image_id           = "ami-00b8917ae86a424c9"
     instance_type = "t2.micro"
-    key_name = "ansible-kp"
+    key_name = "monitoring"
 }
    
 
